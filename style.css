@@ -1,0 +1,166 @@
+body, section, article, main, aside,footer, img, nav, ul, li,a, h1,h2, h3, div,p, figure, figcaption{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho, .interrogacao, .principal, .botao {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+}
+
+.cabecalho h1 {
+    width: 229px;
+    height: 68px;
+}
+
+.cabecalho h1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.interrogacao {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    padding: 73px 0 61px;
+    font-weight: 600 bold;
+    line-height: 41.6px;
+    font-family: IBM Plex Sans;
+}
+
+.principal {
+    padding-bottom: 116px;
+}
+
+.principal ul {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.principal ul li {
+    width: 160px;
+    list-style: none;
+}
+
+.principal ul li figure {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.principal ul li figure img {
+    width: 100%;
+    height: 100%;
+    transition: 1.3s;
+}
+
+.principal ul li figure img:hover {
+    transform: scale(1.5);
+    width: 100%;
+    height: 100%;
+}
+
+.principal ul li figcaption {
+    text-align: center;
+    height: 14px;
+    color:#9C9C9C;
+    padding-top: 20px;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+    
+}
+
+.principal ul li figure .fundo {
+    width: 100%;
+    height: 100%;
+    background: #1E1E20;
+}
+
+.principal ul li figure .circ {
+    width: 53px;
+    height: 53px;
+    background:;
+    z-index: 1;
+    position: absolute;
+    border: 5.38911px solid #6F6F70;
+    border-radius: 100%;
+    text-align: center;
+    color: red;
+}
+
+.principal ul li figure .circ:hover {
+    border: 1.30px solid #ffffff;
+}
+
+.principal ul li figure .linha-vert {
+    height: 21.56px;
+    border: 1.30px solid #6F6F70;
+    z-index: 1;
+    position: absolute;
+}
+
+.principal ul li figure .linha-vert:hover {
+    border: 1.30px solid #ffffff;
+}
+
+.principal ul li figure .linha-hor {
+    width: 21.56px;
+    border: 1.30px solid #6F6F70;
+    z-index: 1;
+    position: absolute;
+}
+
+.principal ul li figure .linha-hor:hover {
+    border: 1.30px solid #ffffff;
+}
+
+.principal ul li figure:hover {
+    border: 1.30px solid #ffffff;
+}
+
+.botao {
+    border-radius: 8px;
+    border: 1.5px solid #ffffff;
+    width: 206px;
+    height: 50px;
+}
+
+.botao button {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.8px;
+    width: 100%;
+}
+
+.botao button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
